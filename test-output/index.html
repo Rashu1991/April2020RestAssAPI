@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Rest_API_Test_Suite">
+              <span class="suite-name border-failed">Rest API Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Rest_API_Test_Suite">
+                    <span>C:\Users\Mudit\eclipse-workspace\April2020RestAssFramework\src\test\resources\testrunners\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Rest_API_Test_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Rest_API_Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Rest_API_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Rest_API_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Rest_API_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Rest_API_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Rest_API_Test_Suite" class="hide-methods failed suite-Rest_API_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Rest_API_Test_Suite -->
+                      <a href="#" panel-name="suite-Rest_API_Test_Suite" class="show-methods failed suite-Rest_API_Test_Suite"> (show)</a> <!-- show-methods failed suite-Rest_API_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Rest_API_Test_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rest_API_Test_Suite" title="com.qa.api.tests.CreateUserTestPOST" hash-for-method="createUserAPIPOSTTest(mudit, varshney, male, 09-Oct-2007, mudit@gmail.com, 9.37538391E8, http://www.def.com, sahibabad, ac...)">createUserAPIPOSTTest(mudit, varshney, male, 09-Oct-2007, mudit@gmail.com, 9.37538391E8, http://www.def.com, sahibabad, ac...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Rest_API_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Rest_API_Test_Suite" class="hide-methods passed suite-Rest_API_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Rest_API_Test_Suite -->
+                      <a href="#" panel-name="suite-Rest_API_Test_Suite" class="show-methods passed suite-Rest_API_Test_Suite"> (show)</a> <!-- show-methods passed suite-Rest_API_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Rest_API_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rest_API_Test_Suite" title="com.qa.api.tests.CreateUserTestPOST" hash-for-method="createUserAPIPOSTTest(aditya, R, male, 02-Feb-1991, adityaR@gmail.com, 9.37930101E8, http://www.abc.com, bangalore, active)">createUserAPIPOSTTest(aditya, R, male, 02-Feb-1991, adityaR@gmail.com, 9.37930101E8, http://www.abc.com, bangalore, active)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rest_API_Test_Suite" title="com.qa.api.tests.CreateUserTestPOST" hash-for-method="createUserAPIPOSTTest(ramesh, B, male, 02-Feb-1997, rameshB@gmail.com, 9.37930109E8, http://www.ghi.com, bangalore, active)">createUserAPIPOSTTest(ramesh, B, male, 02-Feb-1997, rameshB@gmail.com, 9.37930109E8, http://www.ghi.com, bangalore, active)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rest_API_Test_Suite" title="com.qa.api.tests.GetImgurAPITestGET" hash-for-method="getAccountBlockStatusTest">getAccountBlockStatusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rest_API_Test_Suite" title="com.qa.api.tests.GetImgurAPITestGET" hash-for-method="getAccountImagesTest">getAccountImagesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rest_API_Test_Suite" title="com.qa.api.tests.GetUserTestGET" hash-for-method="getAllUserListAPITest">getAllUserListAPITest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rest_API_Test_Suite" title="com.qa.api.tests.GetUserTestGET" hash-for-method="getUserWithQueryParams">getUserWithQueryParams</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rest_API_Test_Suite" title="com.qa.api.tests.GetImgurAPITestGET" hash-for-method="uploadImagePostAPITest">uploadImagePostAPITest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Rest_API_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Rest_API_Test_Suite" class="panel Rest_API_Test_Suite">
+          <div class="suite-Rest_API_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.api.tests.CreateUserTestPOST</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserAPIPOSTTest(mudit, varshney, male, 09-Oct-2007, mudit@gmail.com, 9.37538391E8, http://www.def.com, sahibabad, ac...)">
+                  </a> <!-- createUserAPIPOSTTest(mudit, varshney, male, 09-Oct-2007, mudit@gmail.com, 9.37538391E8, http://www.def.com, sahibabad, ac...) -->
+                  <span class="method-name">createUserAPIPOSTTest</span>
+                  <span class="parameters">(mudit, varshney, male, 09-Oct-2007, mudit@gmail.com, 9.37538391E8, http://www.def.com, sahibabad, active)</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: Invalid use of BasicClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one.
+	at org.apache.http.util.Asserts.check(Asserts.java:34)
+	at org.apache.http.impl.conn.BasicClientConnectionManager.getConnection(BasicClientConnectionManager.java:163)
+	at org.apache.http.impl.conn.BasicClientConnectionManager$1.getConnection(BasicClientConnectionManager.java:145)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:422)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.http.client.HttpClient$execute$2.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2054)
+	at io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:349)
+	at io.restassured.internal.http.HTTPBuilder$post$3.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1180)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:821)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:151)
+	at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:122)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.FilterContext$next.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1654)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:821)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:184)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1660)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:821)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:184)
+	at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:175)
+	at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
+	at com.qa.api.restClient.RestClient.executeAPI(RestClient.java:116)
+	at com.qa.api.restClient.RestClient.getResponse(RestClient.java:104)
+	at com.qa.api.restClient.RestClient.doPost(RestClient.java:37)
+	at com.qa.api.tests.CreateUserTestPOST.createUserAPIPOSTTest(CreateUserTestPOST.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rest_API_Test_Suite-class-failed -->
+          <div class="suite-Rest_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.api.tests.GetImgurAPITestGET</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAccountBlockStatusTest">
+                  </a> <!-- getAccountBlockStatusTest -->
+                  <span class="method-name">getAccountBlockStatusTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAccountImagesTest">
+                  </a> <!-- getAccountImagesTest -->
+                  <span class="method-name">getAccountImagesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadImagePostAPITest">
+                  </a> <!-- uploadImagePostAPITest -->
+                  <span class="method-name">uploadImagePostAPITest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rest_API_Test_Suite-class-passed -->
+          <div class="suite-Rest_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.api.tests.CreateUserTestPOST</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserAPIPOSTTest(aditya, R, male, 02-Feb-1991, adityaR@gmail.com, 9.37930101E8, http://www.abc.com, bangalore, active)">
+                  </a> <!-- createUserAPIPOSTTest(aditya, R, male, 02-Feb-1991, adityaR@gmail.com, 9.37930101E8, http://www.abc.com, bangalore, active) -->
+                  <span class="method-name">createUserAPIPOSTTest</span>
+                  <span class="parameters">(aditya, R, male, 02-Feb-1991, adityaR@gmail.com, 9.37930101E8, http://www.abc.com, bangalore, active)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserAPIPOSTTest(ramesh, B, male, 02-Feb-1997, rameshB@gmail.com, 9.37930109E8, http://www.ghi.com, bangalore, active)">
+                  </a> <!-- createUserAPIPOSTTest(ramesh, B, male, 02-Feb-1997, rameshB@gmail.com, 9.37930109E8, http://www.ghi.com, bangalore, active) -->
+                  <span class="method-name">createUserAPIPOSTTest</span>
+                  <span class="parameters">(ramesh, B, male, 02-Feb-1997, rameshB@gmail.com, 9.37930109E8, http://www.ghi.com, bangalore, active)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rest_API_Test_Suite-class-passed -->
+          <div class="suite-Rest_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.api.tests.GetUserTestGET</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllUserListAPITest">
+                  </a> <!-- getAllUserListAPITest -->
+                  <span class="method-name">getAllUserListAPITest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserWithQueryParams">
+                  </a> <!-- getUserWithQueryParams -->
+                  <span class="method-name">getUserWithQueryParams</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rest_API_Test_Suite-class-passed -->
+        </div> <!-- panel Rest_API_Test_Suite -->
+        <div panel-name="test-xml-Rest_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Mudit\eclipse-workspace\April2020RestAssFramework\src\test\resources\testrunners\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Rest API Test Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.api.listeners.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Rest API regression tests&quot; parallel=&quot;classes&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.api.tests.GetImgurAPITestGET&quot;/&gt;
+      &lt;class name=&quot;com.qa.api.tests.CreateUserTestPOST&quot;/&gt;
+      &lt;class name=&quot;com.qa.api.tests.GetUserTestGET&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Rest API regression tests --&gt;
+&lt;/suite&gt; &lt;!-- Rest API Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Rest_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Rest API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Rest API regression tests (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Rest_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Rest API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Rest_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Rest API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Rest_API_Test_Suite');
+function tableData_Rest_API_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getAllUserListAPITest')
+data.setCell(0, 2, 'com.qa.api.tests.GetUserTestGET')
+data.setCell(0, 3, 6633);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createUserAPIPOSTTest')
+data.setCell(1, 2, 'com.qa.api.tests.CreateUserTestPOST')
+data.setCell(1, 3, 4476);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'uploadImagePostAPITest')
+data.setCell(2, 2, 'com.qa.api.tests.GetImgurAPITestGET')
+data.setCell(2, 3, 1958);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getAccountImagesTest')
+data.setCell(3, 2, 'com.qa.api.tests.GetImgurAPITestGET')
+data.setCell(3, 3, 1627);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getAccountBlockStatusTest')
+data.setCell(4, 2, 'com.qa.api.tests.GetImgurAPITestGET')
+data.setCell(4, 3, 1004);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createUserAPIPOSTTest')
+data.setCell(5, 2, 'com.qa.api.tests.CreateUserTestPOST')
+data.setCell(5, 3, 743);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getUserWithQueryParams')
+data.setCell(6, 2, 'com.qa.api.tests.GetUserTestGET')
+data.setCell(6, 3, 620);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createUserAPIPOSTTest')
+data.setCell(7, 2, 'com.qa.api.tests.CreateUserTestPOST')
+data.setCell(7, 3, 120);
+window.suiteTableData['Rest_API_Test_Suite']= { tableData: data, tableDiv: 'times-div-Rest_API_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <div id="times-div-Rest_API_Test_Suite">
+              </div> <!-- times-div-Rest_API_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Rest_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Rest API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Rest_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Rest_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.api.tests.GetImgurAPITestGET</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.api.tests.GetUserTestGET</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getAllUserListAPITest</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.api.tests.CreateUserTestPOST</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createUserAPIPOSTTest(aditya, R, male, 02-Feb-1991, adityaR@gmail.com, 9.37930101E8, http://www.abc.com, bangalore, active)</span>
+                <span class="method-start">2081 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.api.tests.GetUserTestGET</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getUserWithQueryParams</span>
+                <span class="method-start">6701 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.api.tests.CreateUserTestPOST</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createUserAPIPOSTTest(mudit, varshney, male, 09-Oct-2007, mudit@gmail.com, 9.37538391E8, http://www.def.com, sahibabad, ac...)</span>
+                <span class="method-start">6710 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUserAPIPOSTTest(ramesh, B, male, 02-Feb-1997, rameshB@gmail.com, 9.37930109E8, http://www.ghi.com, bangalore, active)</span>
+                <span class="method-start">6869 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.api.tests.GetImgurAPITestGET</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getAccountBlockStatusTest</span>
+                <span class="method-start">7313 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8330 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getAccountImagesTest</span>
+                <span class="method-start">9360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11190 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">uploadImagePostAPITest</span>
+                <span class="method-start">12216 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

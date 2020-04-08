@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Rest API Test Suite" verbose ="1" parallel = "tests" thread-count="3">
+
+	<listeners>
+		<listener class-name="com.qa.api.listeners.ExtentReportListener"></listener>
+	</listeners>
+	
+  <test thread-count="3" name="Rest API regression tests" parallel="classes">
+    <classes>
+      <class name="com.qa.api.tests.GetImgurAPITestGET"/>
+      <class name="com.qa.api.tests.CreateUserTestPOST"/>
+      <class name="com.qa.api.tests.GetUserTestGET"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
